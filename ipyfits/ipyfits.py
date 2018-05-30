@@ -18,12 +18,12 @@ module_name = "ipyfits"
 class AstroImageWidget(Image):
     """TODO: Add docstring here
     """
-    _model_name = Unicode('AstroImageModel').tag(sync=True)
-    _model_module = Unicode(module_name).tag(sync=True)
-    _model_module_version = Unicode(EXTENSION_SPEC_VERSION).tag(sync=True)
-    _view_name = Unicode('AstroImageView').tag(sync=True)
-    _view_module = Unicode(module_name).tag(sync=True)
-    _view_module_version = Unicode(EXTENSION_SPEC_VERSION).tag(sync=True)
+    # _model_name = Unicode('AstroImageModel').tag(sync=True)
+    # _model_module = Unicode(module_name).tag(sync=True)
+    # _model_module_version = Unicode(EXTENSION_SPEC_VERSION).tag(sync=True)
+    # _view_name = Unicode('AstroImageView').tag(sync=True)
+    # _view_module = Unicode(module_name).tag(sync=True)
+    # _view_module_version = Unicode(EXTENSION_SPEC_VERSION).tag(sync=True)
 
     def __init__(self, *args, **kwargs):
         # Check for widget-specific arguments
