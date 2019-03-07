@@ -1,5 +1,9 @@
 
-# ipyfits
+# This hasbeen superceded by [astrowidgets](https://github.com/astropy/astrowidgets)
+
+Please go to https://github.com/astropy/astrowidgets for a much more functional (and better maintained) image widget.
+
+## ipyfits
 
 [![Build Status](https://travis-ci.org/mwcraig/ipyfits.svg?branch=master)](https://travis-ci.org/mwcraig/ipyfits)
 [![codecov](https://codecov.io/gh/mwcraig/ipyfits/branch/master/graph/badge.svg)](https://codecov.io/gh/mwcraig/ipyfits)
